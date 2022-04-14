@@ -1781,6 +1781,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@webpack-cli/serve@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@webpack-cli/serve@npm:1.6.1"
+  peerDependencies:
+    webpack-cli: 4.x.x
+  peerDependenciesMeta:
+    webpack-dev-server:
+      optional: true
+  checksum: 8b273f906aeffa60c7d5700ae25f98d4b66b7e922cad38acb9575d55ff83872cd20b9894aacfa81c4d54e5b51b16253ae0e70c5e9e0608dc8768276e15c74536
+  languageName: node
+  linkType: hard
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -8306,6 +8318,7 @@ __metadata:
     "@rails/activestorage": ^6.0.0
     "@rails/ujs": ^6.0.0
     "@rails/webpacker": 5.4.2
+    "@webpack-cli/serve": ^1.6.1
     turbolinks: ^5.2.0
     webpack: ^4.46.0
     webpack-cli: ^3.3.12
